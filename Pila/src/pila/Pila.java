@@ -22,7 +22,7 @@ public class Pila<P extends Comparable> {
 
     /**
      * Inserta un objeto al comienzo de la pila.
-     * @param unInfo El dato a almacenar
+     * @param unInfo El dato a almacenar tipo P (Cualquier clase que implemente Comparable)
      */
     public void push(P unInfo) {
         if (frente == null) {
